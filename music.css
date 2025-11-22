@@ -10,7 +10,11 @@ main {
     margin: 5%;
 }
 h1 {
+<<<<<<< HEAD
     font-size: 80px;
+=======
+    font-size: 50px;
+>>>>>>> c77191270e863303dcca734065e3b31712ff8518
     margin-left: 5%;
     display: flex;
     align-items: center;
@@ -26,7 +30,11 @@ nav ul {
 }
 nav li {
     text-align: right;
+<<<<<<< HEAD
     font-size: 35px;
+=======
+    font-size: 20px;
+>>>>>>> c77191270e863303dcca734065e3b31712ff8518
     font-weight: bold;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -53,7 +61,11 @@ footer{
     background-color: #DE8D9E;
     padding: 5% 2%;
     text-align: right;
+<<<<<<< HEAD
     margin-top: 100px;
+=======
+    margin-top: 20%;
+>>>>>>> c77191270e863303dcca734065e3b31712ff8518
 }
 footer a{
     text-decoration: none;
@@ -83,8 +95,13 @@ textarea {
     font-family: Arial, sans-serif;
 }
 #logo{
+<<<<<<< HEAD
     width: 80px;
     height: 80px;
+=======
+    width: 50px;
+    height: 50px;
+>>>>>>> c77191270e863303dcca734065e3b31712ff8518
     margin-right: 2%;
 }
 .column-text {
@@ -141,7 +158,11 @@ textarea {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 6%;
+<<<<<<< HEAD
     padding: 20px;
+=======
+    padding: 5%;
+>>>>>>> c77191270e863303dcca734065e3b31712ff8518
     justify-content: center;
     text-align: center;
 }
