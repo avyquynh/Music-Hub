@@ -202,11 +202,12 @@ textarea {
 }
 .popup-content {
     background-color: #F1DCE1;
-    color: #17080B;
-    margin: 15% auto;
-    padding: 5%;
+    color: #861f34;
+    margin: 10% auto;
+    padding: 30px;
     border: 3px solid #861f34;
     width: 75%;
+    max-width: 600px;
     height: 75%;
     border-radius: 10px;
 }
@@ -214,21 +215,28 @@ textarea {
     color: #DE8D9E;
     font-size: 40px;
     font-weight: bold;
-    align-self: flex-start;
-}
-
-.close-button:hover,
-.close-button:focus {
-    color: #EB2D59;
-    text-decoration: none;
     cursor: pointer;
+    text-decoration: none;
+    transform: translateY(-5px);
+}
+.close-button:hover {
+    color: #EB2D59;
 }
 .popup-header {
     display: flex; 
     justify-content: space-between; 
+    align-items: center;
     border-bottom: 2px solid #DE4766;
     padding-bottom: 10px;
     margin-bottom: 15px; 
+}
+.embed-title {
+    color: #DE8D9E;
+    font-size: 1.2em;
+    border-bottom: 2px solid #DE4766;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 #genre-title {
     color: #DE8D9E;

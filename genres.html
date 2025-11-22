@@ -20,12 +20,16 @@
     </nav>
     <main>
        <div class="genre-grid">
-            <div class="genres">
-                <a href="#" class="open-popup" data-genre="Alternative" data-description="desc">
-                    <img src="images/genre-icon.png" alt="Alternative Music">
-                    <p>Alternative</p>
-                </a>
-            </div>
+        <div class="genres">
+            <a href="#" class="open-popup" data-genre="Alternative" 
+                data-description="Coined in the early 1980s, the term “alternative rock” or “alternative music” was used to describe music that didn't fit into mainstream genres of the time."
+                data-subgenre="Indie, Post-Punk, Gothic Rock, College Rock, Grunge, New Wave bands, etc."
+                data-example="Nirvana, Radiohead, Twenty-One Pilots"
+                data-embed="4YFu4dvMHHY">
+                <img src="images/genre-icon.png" alt="Alternative Music">
+                <p>Alternative</p>
+            </a>
+        </div>
             <div class="genres">
                 <a href="#" class="open-popup" data-genre="Blues" data-description="desc">
                     <img src="images/genre-icon.png" alt="Blues Music">
@@ -48,12 +52,6 @@
                 <a href="#" class="open-popup" data-genre="Hiphop" data-description="desc">
                     <img src="images/genre-icon.png" alt="Hip-Hop Music">
                     <p>Hip-Hop</p>
-                </a>
-            </div>
-            <div class="genres" class="open-popup" data-genre="Indie" data-description="desc">
-                <a href="#">
-                    <img src="images/genre-icon.png" alt="Indie Music">
-                    <p>Indie</p>
                 </a>
             </div>
             <div class="genres">
@@ -124,6 +122,17 @@
                 <span class="close-button">x</span>
             </div>
             <p id="genre-body"></p>
+            <div class="popup-section">
+                <p><b>Sub-Genres:</b> <span id="genre-subgenre"></span></p>
+            </div>
+            <div class="popup-section">
+                <p><b>Popular Artists:</b> <span id="genre-examples"></span></p>
+            </div>
+            <div id="genre-embed" class="popup-section">
+                <h3 class="embed-title">Listen Now</h3>
+                <div id="genre-embed-link">
+                    </div>
+            </div>
         </div>
     </div>
 
