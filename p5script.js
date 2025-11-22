@@ -6,13 +6,13 @@ function preload() {
 }
       
 function setup() {
-    let canvas = createCanvas(50, 50);
+    let canvas = createCanvas(80, 80);
     canvas.parent('logo'); 
     imageMode(CENTER);
 }
       
 function draw() {
-    background(0);
+    clear();
       
     let x = width / 2.0;
     let y = height / 2.0;
@@ -21,8 +21,8 @@ function draw() {
     translate(x, y);
     rotate(radians(angle));
 
-    let imageWidth = myLogo.width * 0.1;
-    let imageHeight = myLogo.height * 0.1; 
+    let imageWidth = myLogo.width * 0.15;
+    let imageHeight = myLogo.height * 0.15; 
     image(myLogo, 0, 0, imageWidth, imageHeight);
     pop();
     

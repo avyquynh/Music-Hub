@@ -21,97 +21,85 @@
     <main>
        <div class="genre-grid">
             <div class="genres">
-                <a href="#">
+                <a href="#" class="open-popup" data-genre="Alternative" data-description="desc">
                     <img src="images/genre-icon.png" alt="Alternative Music">
                     <p>Alternative</p>
                 </a>
             </div>
             <div class="genres">
-                <a href="#">
+                <a href="#" class="open-popup" data-genre="Blues" data-description="desc">
                     <img src="images/genre-icon.png" alt="Blues Music">
                     <p>Blues</p>
                 </a>
             </div>
             <div class="genres">
-                <a href="#">
+                <a href="#" class="open-popup" data-genre="Classical" data-description="desc">
                     <img src="images/genre-icon.png" alt="Classical Music">
                     <p>Classical</p>
                 </a>
             </div>
             <div class="genres">
-                <a href="#">
+                <a href="#" class="open-popup" data-genre="Electric" data-description="desc">
                     <img src="images/genre-icon.png" alt="EDM Music">
                     <p>Electric</p>
                 </a>
             </div>
             <div class="genres">
-                <a href="#">
+                <a href="#" class="open-popup" data-genre="Hiphop" data-description="desc">
                     <img src="images/genre-icon.png" alt="Hip-Hop Music">
                     <p>Hip-Hop</p>
                 </a>
             </div>
-            <div class="genres">
-                <a href="#">
-                    <img src="images/genre-icon.png" alt="House Music">
-                    <p>House</p>
-                </a>
-            </div>
-            <div class="genres">
+            <div class="genres" class="open-popup" data-genre="Indie" data-description="desc">
                 <a href="#">
                     <img src="images/genre-icon.png" alt="Indie Music">
                     <p>Indie</p>
                 </a>
             </div>
             <div class="genres">
-                <a href="#">
+                <a href="#" class="open-popup" data-genre="Jazz" data-description="desc">
                     <img src="images/genre-icon.png" alt="Jazz Music">
                     <p>Jazz</p>
                 </a>
             </div>
             <div class="genres">
-                <a href="#">
-                    <img src="images/genre-icon.png" alt="Latin Music">
-                    <p>Latin</p>
-                </a>
-            </div>
-            <div class="genres">
-                <a href="#">
+                <a href="#" class="open-popup" data-genre="Metal" data-description="desc">
                     <img src="images/genre-icon.png" alt="Metal Music">
                     <p>Metal</p>
                 </a>
             </div>
             <div class="genres">
-                <a href="#">
+                <a href="#" class="open-popup" data-genre="Pop" data-description="desc">
                     <img src="images/genre-icon.png" alt="Pop Music">
                     <p>Pop</p>
                 </a>
             </div>
             <div class="genres">
-                <a href="#">
+                <a href="#" class="open-popup" data-genre="Rap" data-description="desc">
                     <img src="images/genre-icon.png" alt="Rap Music">
                     <p>Rap</p>
                 </a>
             </div>
             <div class="genres">
-                <a href="#">
+                <a href="#" class="open-popup" data-genre="soul" data-description="desc">
                     <img src="images/genre-icon.png" alt="R&B/Soul Music">
                     <p>R&B/Soul</p>
                 </a>
             </div>
             <div class="genres">
-                <a href="#">
+                <a href="#" class="open-popup" data-genre="Rock" data-description="desc">
                     <img src="images/genre-icon.png" alt="Rock Music">
                     <p>Rock</p>
                 </a>
             </div>
             <div class="genres">
-                <a href="#">
+                <a href="#" class="open-popup" data-genre="Theater" data-description="desc">
                     <img src="images/genre-icon.png" alt="Theater Music">
                     <p>Theater</p>
                 </a>
             </div>
             <div class="genres">
-                <a href="#">
+                <a href="#" class="open-popup" data-genre="World" data-description="desc">
                     <img src="images/genre-icon.png" alt="World Music">
                     <p>World</p>
                 </a>
@@ -127,7 +115,19 @@
         <p>Copyright © 2025 The Music Hub</p>
         <p>aqchung2@asu.edu</p>
     </footer>
+
+    <div id="genre-popup" class="popup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h2 id="genre-title"></h2>
+                <span class="close-button">x</span>
+            </div>
+            <p id="genre-body"></p>
+        </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.js"></script>
     <script src="p5script.js"></script>
+    <script src="popup.js"></script>
 </body>
 </html>
