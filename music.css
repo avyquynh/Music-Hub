@@ -198,18 +198,21 @@ textarea {
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0, 0.8);
+    margin-top: 20px;
     padding: 0;
 }
 .popup-content {
     background-color: #F1DCE1;
     color: #861f34;
-    margin: 10% auto;
-    padding: 30px;
+    margin: 5% auto;
+    padding: 40px;
     border: 3px solid #861f34;
     width: 75%;
     max-width: 600px;
     height: 75%;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .close-button {
     color: #DE8D9E;
@@ -237,6 +240,11 @@ textarea {
     padding-bottom: 5px;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+#scroll {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-right: 10px;
 }
 #genre-title {
     color: #DE8D9E;
