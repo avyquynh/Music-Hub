@@ -103,6 +103,7 @@ textarea {
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 15px;
 }
 .home-box h2 {
     font-size: 40px;
@@ -116,10 +117,12 @@ textarea {
     background-color: #F1DCE1;
     padding: 2%;
     border: 5px solid #DE4766;
+    border-radius: 15px;
 }
 .artist-box {
     background-color: #861f34;
     padding: 5%;
+    border-radius: 15px;
 }
 .artist-box h2{
     margin-top: 0;
@@ -131,6 +134,7 @@ textarea {
 .artist-box p{
     background-color: #17080B;
     padding: 5%;
+    border-radius: 15px;
 }
 .artist img {
     width: 150px; 
@@ -144,6 +148,7 @@ textarea {
 .top-songs-container table {
     padding: 5%;
     background-color: #17080B;
+    border-radius: 15px;
 }
 .top-songs-container th {
     text-align: left;
@@ -157,9 +162,35 @@ textarea {
 .top-songs-container img {
     width: 5em;
     height: 5em;
+    border-radius: 15px;
+    border: 2px solid #F1DCE1;
 }
 .artist-box .top-songs-container h3{
     font-size: 20px;
+}
+.flow {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    align-items: stretch;
+}
+.flow section:first-child {
+    flex: 2;
+}
+.flow section:last-child {
+    flex: 1;
+}
+.artist-flow {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    align-items: stretch;
+}
+.artist-flow section:first-child {
+    flex: 1.5;
+}
+.artist-flow section:last-child {
+    flex: 1;
 }
 .genre-grid {
     display: grid;
@@ -188,30 +219,6 @@ textarea {
 }
 .genres a:hover img {
     transform: scale(1.05);
-}
-.flow {
-    display: flex;
-    flex-direction: row;
-    gap: 2%;
-    align-items: stretch;
-}
-.flow section:first-child {
-    flex: 2;
-}
-.flow section:last-child {
-    flex: 1;
-}
-.artist-flow {
-    display: flex;
-    flex-direction: row;
-    gap: 2%;
-    align-items: stretch;
-}
-.artist-flow section:first-child {
-    flex: 1.5;
-}
-.artist-flow section:last-child {
-    flex: 1;
 }
 .popup {
     display: none;
@@ -281,4 +288,26 @@ textarea {
     flex-direction: column;
     gap: 20px; 
     margin-top: 10px;
+}
+.playlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 25px;
+    justify-content: center;
+    text-align: center;
+}
+.playlists {
+    background-color: #F1DCE1;
+    border-radius: 15px;
+    padding: 5%;
+    color: #17080B;
+    font-size: 25px;
+    font-weight: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+.playlists p {
+    padding-bottom: 20px;
 }
