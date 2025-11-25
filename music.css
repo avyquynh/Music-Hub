@@ -58,7 +58,7 @@ section p {
 }
 footer{
     background-color: #e77d94;
-    padding: 5% 2%;
+    padding: 2%;
     text-align: right;
     margin-top: 100px;
 }
@@ -67,6 +67,8 @@ footer a{
     text-transform: uppercase;
     display: inline-block;
     font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
 }
 footer p {
     font-style: italic;
@@ -120,7 +122,7 @@ textarea {
 .home-box p {
     font-size: 1.5em;
 }
-.home-contact {
+#home-contact {
     color: #17080B;
     background-color: #F1DCE1;
     padding: 2%;
@@ -203,15 +205,15 @@ textarea {
 }
 .genre-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 6%;
     padding: 20px;
     justify-content: center;
     text-align: center;
 }
 .genres p {
-    margin-top: 10px;
-    font-size: 18px;
+    margin-top: 15px;
+    font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -221,8 +223,8 @@ textarea {
     display: block;
 }
 .genres img {
-    width: 150px; 
-    height: 150px;
+    width: 200px; 
+    height: 200px;
     border-radius: 50%;
     border: 5px solid #F1DCE1;
 }
@@ -252,7 +254,6 @@ textarea {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
 }
 .close-button {
     color: #DE8D9E;
@@ -300,7 +301,7 @@ textarea {
 }
 .playlist-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 25px;
     padding: 25px;
     justify-content: center;
