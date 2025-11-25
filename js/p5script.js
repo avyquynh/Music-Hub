@@ -30,7 +30,9 @@ function draw() {
 }
 function windowResized() {
     let container = document.getElementById('logo');
-    let w = container.offsetWidth;
-    let h = container.offsetHeight;
-    resizeCanvas(w, h);
+    if (container) { 
+        let w = container.offsetWidth;
+        let h = container.offsetHeight;
+        resizeCanvas(w, h);
+    }
 }

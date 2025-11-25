@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="music.css">
     <title>Music Hub :: Home</title>
+    <link rel="preconnect" href="https://www.youtube.com">
+    <link rel="preconnect" href="https://i.scdn.co">
+    <meta name="description" content="See the site creator's favorite artist of the month!">
 </head>
 <body>
     
@@ -23,7 +26,7 @@
         <div class="artist-flow">
             <section class="artist-box">
                <h2>November Top Artist</h2> 
-                    <div class="artist"><img src="images/nov-artist.png" alt="Musician Crying City"></div>
+                    <div class="artist"><img src="images/nov-artist.jpg" alt="Musician Crying City" loading="lazy"></div>
                     <h3>Crying City</h3>
                 <div class="column-text">
                     <p>Crying City is a Korean-American songwriter based in the Bay Area of California. Their main genres are Alternative, Rock, and Indie.</p>
@@ -44,19 +47,19 @@
                                 <td>Urn</td>
                                 <td>Bedroom R&B</td>
                                 <td>You're Still The Luckiest Thing To Happen To Me</td>
-                                <td><img src="images/top-artist-content/cc_album1.jpg" alt="Album Cover"></td>
+                                <td><img src="images/top-artist-content/cc_album1.jpg" alt="Album Cover" loading="lazy"></td>
                             </tr>
                             <tr>
                                 <td>Lucky</td>
                                 <td>Bedroom R&B</td>
                                 <td>You're Still The Luckiest Thing To Happen To Me…</td>
-                                <td><img src="images/top-artist-content/cc_album1.jpg" alt="Album Cover"></td>
+                                <td><img src="images/top-artist-content/cc_album1.jpg" alt="Album Cover" loading="lazy"></td>
                             </tr>
                             <tr>
                                 <td>better (with you)</td>
                                 <td>Bedroom R&B</td>
                                 <td>better (with you)</td>
-                                <td><img src="images/top-artist-content/cc_album2.jpg" alt="Album Cover"></td>
+                                <td><img src="images/top-artist-content/cc_album2.jpg" alt="Album Cover" loading="lazy"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -65,7 +68,7 @@
             <section>
                 <iframe data-testid="embed-iframe" style="border-radius:12px" 
                 src="https://open.spotify.com/embed/artist/324QqTOkQyG8CUlphElsdD?utm_source=generator&theme=0" 
-                width="100%" height="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                width="100%" height="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </section>
         </div>
     </main>
@@ -74,11 +77,11 @@
         <a href="genres.html">Genres</a>
         <a href="artist.html">Top Artist</a>
         <a href="playlist.html">Playlists</a>
-        <a href="#contact">Contact Us</a>
+        <a>Contact Us</a>
         <p>Copyright © 2025 The Music Hub</p>
         <p>aqchung2@asu.edu</p>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.js"></script>
-    <script src="p5script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.min.js" defer></script>
+    <script src="js/p5script.js" defer></script>
 </body>
 </html>

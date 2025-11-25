@@ -25,6 +25,7 @@ nav ul {
     justify-content: space-around;
 }
 nav li {
+
     text-align: right;
     font-size: 35px;
     font-weight: bold;
@@ -37,20 +38,26 @@ nav a{
     display: inline-block;
 }
 nav a:link{
-    color: #F1DCE1;
-}
-nav a:hover{
-    color: #EB2D59;
+    color: #17080B;
 }
 nav a:visited{
-    color: #F1DCE1;
+    color: #17080B;
+}
+nav li:hover a {
+    color: #EB2D59;
+}
+nav li::marker {
+    color: #17080B;
+}
+nav li:hover::marker {
+    color: #EB2D59;
 }
 section p {
     line-height: 2;
     font-size: 20px;
 }
 footer{
-    background-color: #DE8D9E;
+    background-color: #e77d94;
     padding: 5% 2%;
     text-align: right;
     margin-top: 100px;
@@ -64,15 +71,16 @@ footer a{
 footer p {
     font-style: italic;
     font-size: small;
+    color: #17080B;
 }
 footer a:link{
-    color: #F1DCE1;
+    color: #17080B;
+}
+footer a:visited{
+    color: #17080B;
 }
 footer a:hover{
     color: #EB2D59;
-}
-footer a:visited{
-    color: #F1DCE1;
 }
 form {
     display: flex;
@@ -159,13 +167,14 @@ textarea {
     color: #F1DCE1;
     padding-right: 50px;
 }
-.top-songs-container img {
+.top-songs-container table img {
     width: 5em;
     height: 5em;
     border-radius: 15px;
     border: 2px solid #F1DCE1;
 }
 .artist-box .top-songs-container h3{
+    padding-top: 15px;
     font-size: 20px;
 }
 .flow {

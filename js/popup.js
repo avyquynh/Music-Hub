@@ -10,10 +10,9 @@ const genreLinks = document.querySelectorAll('.open-popup');
 function createIframeHTML(embedID) {
     const iframeSrc = `https://www.youtube.com/embed/${embedID}`;
     return `<iframe width="100%" height="250" src="${iframeSrc}" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowfullscreen 
-            style="margin-bottom: 10px;"></iframe>`;
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" 
+        style="margin-bottom: 10px;"></iframe>`;
 }
 function openPopup(genre, description, subgenre, examples, embedCodes) {
     genreTitle.textContent = genre;
