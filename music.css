@@ -222,7 +222,6 @@ textarea {
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0, 0.8);
-    margin-top: 20px;
     padding: 0;
 }
 .popup-content {
@@ -237,6 +236,7 @@ textarea {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 .close-button {
     color: #DE8D9E;
