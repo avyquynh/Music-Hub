@@ -137,6 +137,30 @@ textarea {
     height: 150px;
     border-radius: 50%;
 }
+.top-songs-container {
+    margin-top: 5%;
+    border-top: 2px solid #DE4766;
+}
+.top-songs-container table {
+    padding: 5%;
+    background-color: #17080B;
+}
+.top-songs-container th {
+    text-align: left;
+    padding-bottom: 10px;
+}
+.top-songs-container td {
+    text-align: left;
+    color: #F1DCE1;
+    padding-right: 50px;
+}
+.top-songs-container img {
+    width: 5em;
+    height: 5em;
+}
+.artist-box .top-songs-container h3{
+    font-size: 20px;
+}
 .genre-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
