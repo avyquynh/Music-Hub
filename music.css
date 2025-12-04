@@ -15,6 +15,13 @@ h1 {
     display: flex;
     align-items: center;
 }
+header h1 a {
+    text-decoration: none;
+    color: #F1DCE1;
+}
+h2 {
+    text-align: center;
+}
 nav {
     text-align: center;
     background-color: #DE8D9E;
@@ -36,18 +43,18 @@ nav a{
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
+    padding: 10px 15px;
 }
-nav a:link{
+nav a:link,
+nav a:visited {
     color: #17080B;
-}
-nav a:visited{
-    color: #17080B;
-}
-nav li:hover a {
-    color: #EB2D59;
 }
 nav li::marker {
     color: #17080B;
+}
+nav li:hover a,
+nav a:hover {
+    color: #EB2D59;
 }
 nav li:hover::marker {
     color: #EB2D59;
@@ -69,7 +76,10 @@ footer{
     display: inline-block;
     font-weight: bold;
     font-size: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
+    margin: 4px;
+    color: #F1DCE1; 
+    text-decoration: none;
 }
 footer a {
     text-decoration: none;
@@ -111,6 +121,9 @@ textarea {
 .column-text a:hover{
     color: #EB2D59;
 }
+.column-text a:visited{
+    color: #DE8D9E;
+}
 .no-bullets {
     list-style-type: none;
 }
@@ -147,6 +160,7 @@ textarea {
 .artist-box h2{
     margin-top: 0;
     font-size: 40px;
+    text-align: left;
 }
 .artist-box h3{
     font-size: 30px;
@@ -216,7 +230,7 @@ textarea {
 .genre-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 6%;
+    gap: 16px;
     padding: 20px;
     justify-content: center;
     text-align: center;
@@ -240,6 +254,12 @@ textarea {
 }
 .genres a:hover img {
     transform: scale(1.05);
+}
+.genres .open-popup {
+    display: block;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
 }
 .popup {
     display: none;
